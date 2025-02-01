@@ -1,0 +1,13 @@
+GET http://localhost:3000/messages
+
+### post
+
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "conten3t": [123]
+}
+### post
+
+GET http://localhost:3000/messages/12
